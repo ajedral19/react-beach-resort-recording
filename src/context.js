@@ -29,8 +29,8 @@ class RoomProvider extends Component{
             let response = await Client.getEntries({
                 content_type: "beachResortRoomExample",
                 // order: "sys.createdAt"
-                // order: 'fields.price'
-                order: '-fields.price'
+                order: 'fields.price'
+                // order: '-fields.price'
             });
             // console.log(response);
             
